@@ -2,8 +2,8 @@
 logs
 *.log
 .DS_Store
-styles.min.css
-portal.min.js
+style.css
+
 
 # Runtime data
 pids
