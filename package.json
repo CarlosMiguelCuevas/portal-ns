@@ -3,8 +3,8 @@
   "version": "0.1.2",
   "private": true,
   "scripts": {
-    "postinstall": "grunt rebuild",
-    "start": "node app.js",
+
+    "start": "grunt rebuild & node app.js",
     "test": "grunt & mocha -R spec"
   },
   "dependencies": {
