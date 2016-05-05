@@ -3,6 +3,8 @@ var wpi = require("wiring-pi"),
     config = require("./config"),
     host = config.host,
     port = process.env.PORT || 5000,
+    config = require("./config"),
+    host = config.host,
     method = "POST",
     restler = require('restler');
 
